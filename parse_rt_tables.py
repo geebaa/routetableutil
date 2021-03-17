@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-file = open('rt_tables', 'r')
+file = open('/etc/iproute2/rt_tables', 'r')
 rt_table_dict = dict()
 for each in file:
     if each[0]=='#' or each[0]=='\n' :
